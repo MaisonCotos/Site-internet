@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notes légales — Maison Cotos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=3">
+  <style>
+    .legal-page {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 140px 48px 96px;
+    }
+    .legal-nav-back {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 300;
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      color: var(--taupe);
+      text-transform: uppercase;
+      margin-bottom: 64px;
+      transition: color 300ms;
+    }
+    .legal-nav-back:hover { color: var(--prune); }
+    .legal-section {
+      margin-bottom: 80px;
+    }
+    .legal-section + .legal-section {
+      padding-top: 80px;
+      border-top: 1px solid var(--pierre);
+    }
+    .legal-h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 300;
+      font-size: clamp(32px, 4vw, 48px);
+      color: var(--noir);
+      margin-bottom: 40px;
+      letter-spacing: 0.02em;
+    }
+    .legal-h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 400;
+      font-size: 22px;
+      color: var(--noir);
+      margin-bottom: 16px;
+      margin-top: 40px;
+      letter-spacing: 0.01em;
+    }
+    .legal-h2:first-child { margin-top: 0; }
+    .legal-h3 {
+      font-family: 'Inter', sans-serif;
+      font-weight: 300;
+      font-size: 10px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--taupe);
+      margin-bottom: 12px;
+      margin-top: 32px;
+    }
+    .legal-p {
+      font-family: 'Inter', sans-serif;
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 1.85;
+      color: var(--bronze);
+      margin-bottom: 16px;
+    }
+    .legal-ul {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 16px;
+    }
+    .legal-ul li {
+      font-family: 'Inter', sans-serif;
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 1.85;
+      color: var(--bronze);
+      padding-left: 16px;
+      position: relative;
+      margin-bottom: 6px;
+    }
+    .legal-ul li::before {
+      content: '—';
+      position: absolute;
+      left: 0;
+      color: var(--taupe);
+      font-size: 12px;
+    }
+    .legal-email {
+      font-family: 'Inter', sans-serif;
+      font-weight: 300;
+      font-size: 14px;
+      color: var(--prune);
+      letter-spacing: 0.04em;
+    }
+    @media (max-width: 768px) {
+      .legal-page { padding: 120px 24px 72px; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav id="site-nav" class="scrolled">
+    <a href="index.html" class="nav-wordmark">MAISON COTOS</a>
+    <div class="nav-links">
+      <a href="index.html#journal">Journal</a>
+      <a href="index.html#notes-visuelles">Notes</a>
+      <a href="index.html#cercle">Le Cercle</a>
+    </div>
+    <div class="nav-border"></div>
+  </nav>
+
+  <main class="legal-page">
+
+    <a href="index.html" class="legal-nav-back">← Retour</a>
+
+    <!-- ── MENTIONS LÉGALES ──────────────────────────── -->
+    <section class="legal-section" id="mentions">
+      <h1 class="legal-h1">Mentions légales</h1>
+
+      <h2 class="legal-h2">Éditeur du site</h2>
+      <p class="legal-p">
+        <strong>Maison Cotos</strong><br>
+        Genève, Suisse<br>
+        Email : <a href="mailto:contact@maisoncotos.com" class="legal-email">contact@maisoncotos.com</a>
+      </p>
+
+      <h2 class="legal-h2">Objet du site</h2>
+      <p class="legal-p">Maison Cotos est une publication indépendante consacrée à l'observation, à l'analyse et à la curation de contenus relatifs à la longévité féminine, au bien-vieillir, à la santé préventive, à l'esthétique médicale et aux sujets connexes.</p>
+      <p class="legal-p">Les informations publiées ont une vocation exclusivement informative, éditoriale et culturelle.</p>
+      <p class="legal-p">Maison Cotos n'est pas un cabinet médical, une clinique, un établissement de soins ou un prestataire de services médicaux.</p>
+
+      <h2 class="legal-h2">Absence de conseil médical</h2>
+      <p class="legal-p">Les contenus publiés sur ce site, dans le Journal, dans les newsletters ou dans les communications de Maison Cotos ne constituent ni un diagnostic médical, ni un traitement, ni une recommandation thérapeutique personnalisée.</p>
+      <p class="legal-p">Toute décision relative à la santé doit être prise avec un médecin ou un professionnel de santé qualifié.</p>
+
+      <h2 class="legal-h2">Responsabilité</h2>
+      <p class="legal-p">Maison Cotos s'efforce de fournir des informations exactes et régulièrement mises à jour. Toutefois, aucune garantie n'est donnée quant à l'exhaustivité, l'exactitude ou l'actualité permanente des informations publiées. L'utilisation des informations disponibles sur ce site s'effectue sous la seule responsabilité du visiteur.</p>
+
+      <h2 class="legal-h2">Liens externes</h2>
+      <p class="legal-p">Le site peut contenir des liens vers des sites tiers. Maison Cotos n'exerce aucun contrôle sur leur contenu et décline toute responsabilité quant aux informations, produits ou services proposés par ces sites.</p>
+
+      <h2 class="legal-h2">Propriété intellectuelle</h2>
+      <p class="legal-p">L'ensemble des contenus présents sur le site (textes, photographies, illustrations, graphismes, identité visuelle, logo, vidéos et éléments éditoriaux) est protégé par les dispositions applicables du droit suisse et international de la propriété intellectuelle. Toute reproduction, diffusion ou utilisation sans autorisation écrite préalable est interdite.</p>
+    </section>
+
+    <!-- ── POLITIQUE DE CONFIDENTIALITÉ ─────────────── -->
+    <section class="legal-section" id="confidentialite">
+      <h1 class="legal-h1">Politique de confidentialité</h1>
+
+      <h2 class="legal-h2">1. Responsable du traitement</h2>
+      <p class="legal-p">
+        <strong>Maison Cotos</strong><br>
+        Genève, Suisse<br>
+        Email : <a href="mailto:contact@maisoncotos.ch" class="legal-email">contact@maisoncotos.ch</a>
+      </p>
+
+      <h2 class="legal-h2">2. Données collectées</h2>
+      <ul class="legal-ul">
+        <li>adresse email</li>
+        <li>préférences d'abonnement</li>
+        <li>données communiquées volontairement via les formulaires de contact</li>
+        <li>données techniques de navigation (adresse IP, navigateur, appareil, pages consultées)</li>
+        <li>statistiques anonymisées de fréquentation du site</li>
+      </ul>
+
+      <h2 class="legal-h2">3. Finalités du traitement</h2>
+      <ul class="legal-ul">
+        <li>envoyer les newsletters et notes du Journal</li>
+        <li>informer les abonnées de l'évolution du projet Maison Cotos</li>
+        <li>communiquer au sujet du futur Cercle</li>
+        <li>répondre aux demandes reçues</li>
+        <li>améliorer le site et son contenu</li>
+        <li>assurer la sécurité technique du service</li>
+      </ul>
+
+      <h2 class="legal-h2">4. Base légale</h2>
+      <ul class="legal-ul">
+        <li>sur la base de votre consentement lorsque vous vous inscrivez à la newsletter</li>
+        <li>sur la base de l'intérêt légitime de Maison Cotos pour la gestion et la sécurité du site</li>
+        <li>lorsque cela est nécessaire pour répondre à une demande de contact</li>
+      </ul>
+
+      <h2 class="legal-h2">5. Prestataires</h2>
+      <p class="legal-p">Certaines données peuvent être traitées par des prestataires techniques agissant pour notre compte, notamment : hébergement du site, plateforme d'envoi de newsletters, outils de mesure d'audience, services de stockage sécurisés. Ces prestataires ne peuvent utiliser les données que dans le cadre des services qu'ils fournissent à Maison Cotos.</p>
+
+      <h2 class="legal-h2">6. Conservation des données</h2>
+      <p class="legal-p">Les données sont conservées uniquement pendant la durée nécessaire aux finalités pour lesquelles elles ont été collectées. Les adresses email sont conservées jusqu'au retrait du consentement ou à la désinscription.</p>
+
+      <h2 class="legal-h2">7. Vos droits</h2>
+      <p class="legal-p">Conformément à la législation suisse applicable en matière de protection des données, vous pouvez demander l'accès à vos données, leur rectification, leur suppression, ou des informations sur leur traitement.</p>
+      <p class="legal-p">Toute demande peut être adressée à : <a href="mailto:contact@maisoncotos.ch" class="legal-email">contact@maisoncotos.ch</a></p>
+
+      <h2 class="legal-h2">8. Newsletter</h2>
+      <p class="legal-p">Chaque email envoyé par Maison Cotos contient un lien permettant de se désinscrire à tout moment. La désinscription est gratuite et immédiate.</p>
+
+      <h2 class="legal-h2">9. Cookies et mesure d'audience</h2>
+      <p class="legal-p">Le site utilise uniquement les cookies strictement nécessaires à son fonctionnement ainsi que des outils de mesure d'audience respectueux de la vie privée. Lorsque cela est requis, le consentement du visiteur est recueilli avant le dépôt de cookies non essentiels.</p>
+
+      <h2 class="legal-h2">10. Sécurité</h2>
+      <p class="legal-p">Maison Cotos met en oeuvre des mesures techniques et organisationnelles raisonnables afin de protéger les données personnelles contre tout accès non autorisé, perte, divulgation ou modification.</p>
+    </section>
+
+  </main>
+
+  <footer id="footer">
+    <div class="footer-inner">
+      <div class="footer-bottom" style="border-top: none; padding-top: 0;">
+        <span>Maison Cotos — Genève — 2026</span>
+        <span><a href="index.html" style="color: inherit;">← Retour à l'accueil</a></span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
